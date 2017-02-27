@@ -64,13 +64,13 @@ client
 
 # ⚡ Redis Data Structures ⚡
 
- | Type | Description | Possible Operations
- | --- | --- | ---
- | STRING | Strings, integers, or floating-point values | Operate on the whole string, parts, increment/ decrement the integers and floats
- | LIST | Linked list of strings | Push or pop items from both ends, trim based on offsets, read individual or multiple items, find or remove items by value
- | SET | Unordered collection of unique strings | Add, fetch, or remove individual items, check membership, intersect, union, difference, fetch random items
- | HASH | Unordered hash table of keys to values | Add, fetch, or remove individual items, fetch the whole hash
- | ZSET | Sorted set; ordered mapping of string members to floating-point scores, ordered by score | Add, fetch, or remove individual values, fetch items based on score ranges or member value
+| Type | Description | Possible Operations
+| --- | --- | ---
+| STRING | Strings, integers, or floating-point values | Operate on the whole string, parts, increment/ decrement the integers and floats
+| LIST | Linked list of strings | Push or pop items from both ends, trim based on offsets, read individual or multiple items, find or remove items by value
+| SET | Unordered collection of unique strings | Add, fetch, or remove individual items, check membership, intersect, union, difference, fetch random items
+| HASH | Unordered hash table of keys to values | Add, fetch, or remove individual items, fetch the whole hash
+| ZSET | Sorted set; ordered mapping of string members to floating-point scores, ordered by score | Add, fetch, or remove individual values, fetch items based on score ranges or member value
 
 *from [redislabs - Redis in Action, chapter 1](https://redislabs.com/ebook/part-1-getting-started/chapter-1-getting-to-know-redis/1-2-what-redis-data-structures-look-like/)*
 
